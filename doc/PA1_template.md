@@ -21,7 +21,7 @@ library(knitr)
 opts_chunk$set(echo = TRUE, results = 'hold')
 ```
 
-### Load required libraries
+## Load required libraries
 
 ```r
 library(data.table)
@@ -33,9 +33,9 @@ library(ggplot2)
 ## Loading and preprocessing the data    
 
  
-2. Process/transform the data (if necessary) into desired format for analysis
 
-### Load the required data
+
+## Load the required data
 
 The following statement is used to load the data using `read.csv()`.
 
@@ -158,7 +158,7 @@ naTotal
 
 There are **2304** **missing values** from the data set.
 
-##Develop a strategy for filling in all of the missing values in the dataset
+## Develop a strategy for filling in all of the missing values in the dataset
 
 Develop the code to update all missing values in the data set.
 
@@ -200,7 +200,7 @@ sum(is.na(activity2$steps))
 All missing values have been updated resulting in no more missing values.
 
 
-##Generate a histogram of the total number of steps taken each day
+## Generate a histogram of the total number of steps taken each day
 
 Generate a histogram based on the new data set (with no missing values).
 
@@ -244,7 +244,7 @@ While the mean remained unchanged, the median did increase slightly (as shown be
 
 As stated above, the mean did not change after the missing values were update, while the median did increase slightly and is now equal to the mean.
 
-##Detemrine if there are any differences in trends/patterns in the data between weekdays and weekends. 
+## Detemrine if there are any differences in trends/patterns in the data between weekdays and weekends. 
 
 Create new variable for weekday (i.e., day of the week) and weekday type (weekday vs weekend). 
 
